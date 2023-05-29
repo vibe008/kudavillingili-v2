@@ -47,7 +47,8 @@ const News = ( props ) => {
 				/>
 			)
 
-		} else if( index%3 === 1 ){
+		} 
+		else if( index%3 === 1 ){
 
 			offers_two.push(
 				<NewsItem
@@ -60,7 +61,9 @@ const News = ( props ) => {
 				/>
 			)
 
-		} else {
+		} 
+
+		else {
 
 			offers_three.push(
 				<NewsItem

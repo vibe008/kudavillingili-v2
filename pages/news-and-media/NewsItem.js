@@ -24,7 +24,7 @@ const NewsItem = (props) => {
     	}
   }, []);
 	return(
-		<a href="" target='_blank' rel="noreferrer">
+		<a href={props.link} target='_blank' rel="noreferrer">
 		{/* <a href={ props.link } target='_blank' rel="noreferrer"> */}
 			<OfferItem isMobile={ props.isMobile }  marginTop={ props.marginTop }>
 				<NewsImage src={ props.image } isMobile={ props.isMobile }/>

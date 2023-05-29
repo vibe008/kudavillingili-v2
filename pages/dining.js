@@ -263,7 +263,7 @@ export const getServerSideProps = async () => {
 		med: med,
 		ocean: ocean,
 		private_events: private_events,
-		description:"Looking for a restaurant in Maldives? Visit Kuda Villingili, our restaurant is a wholesome experience with natural & healthy cuisine ranging from local smoked fish, exotic homemade jams, honey infused with locally grown herbs, & options of plant-based, dairy-free, or gluten-free dishes.",
+		seo_description:"Looking for a restaurant in Maldives? Visit Kuda Villingili, our restaurant is a wholesome experience with natural & healthy cuisine ranging from local smoked fish, exotic homemade jams, honey infused with locally grown herbs, & options of plant-based, dairy-free, or gluten-free dishes.",
 		// description: response.data.about,
 		seo_keywords: response.data.seo_keywords,
 		seo_title: "Best Restaurants in the Maldives | Dining at the Best Restaurants in Maldives – Kuda Villingili",
