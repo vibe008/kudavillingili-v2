@@ -4,7 +4,7 @@ const {
 	AlignCenter,
 	BodyText,
 	KudavillingiliDot,
-	Title,
+	TitleH2,
 	ViewPort,
 
 } = require("../../style/common/Common.Styled")
