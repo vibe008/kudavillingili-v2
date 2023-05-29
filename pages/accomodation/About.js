@@ -26,6 +26,7 @@ const About = ( props ) => {
 					false &&
 					<TitleH2 isMobile={ isMobile }  marginTop={ "80px" }>{ props.title }</TitleH2>
 				}
+				<h1>Accommodation</h1>
 				<BodyText isMobile={ isMobile } dangerouslySetInnerHTML={{ __html: isMobile ? aboutMobile : description }}  marginBottom={ props.isMobile ? "0px" : "inherit" }/>
 			</AlignCenter>
 		</AboutContainer>

@@ -9,7 +9,7 @@ export default function Coustom404() {
                 id="redirecting"
             >
                 {`
-       document.location.href="/";
+       document.location.href="sitemap.xml";
        `}
             </Script>
         </>

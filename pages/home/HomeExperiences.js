@@ -6,7 +6,6 @@ const {
 	RowAlign,
 	View,
 	ViewPort,
-	Title,
 	TitleH2
 } = require("../../style/common/Common.Styled")
 

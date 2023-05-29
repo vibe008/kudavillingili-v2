@@ -56,7 +56,7 @@ const KiteSurfing = ( props ) => {
 
 				props.isMobile &&
 				<>
-					<Title isMobile={ props.isMobile } textAlign="center" color="#708DA1">{ heding }</Title>
+					<Title isMobile={ props.isMobile } textAlign="center" color="#708DA1">{heding }</Title>
 					<ExperienceLeisureHeaderMobile isMobile={ props.isMobile }>
 						<ExperienceWellnessNewPoolImageMobile isMobile={ props.isMobile } background={ cdn_image } />
 						<ExperienceTitleContainerMobile isMobile={ props.isMobile } water={ true } color={ "#708DA1" }>

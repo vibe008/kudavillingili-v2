@@ -5,7 +5,7 @@ const {
 
 	Container,
 	TextColorLightGrey,
-	Title,
+	TitleH2,
 
 } = require("../../style/common/Common.Styled")
 
@@ -37,7 +37,7 @@ const GettingHere = (props) => {
 					<GettingHereImage src={ image } />
 				</GettingHereHalf>
 				<GettingHereHalf isMobile={ isMobile } padding={ isMobile ? "20px" : "0px" } heightOverright={ isMobile ? true : false }>
-					<Title marginTop={ "0px" } isMobile={ isMobile } languageDetected={ languageDetected }>{ titleData }</Title>
+					<TitleH2 marginTop={ "0px" } isMobile={ isMobile } languageDetected={ languageDetected }>{ titleData }</TitleH2>
 					<TextColorLightGrey isMobile={ isMobile } textAlign="left" fontSize={ isMobile ? "14px" : "16px" } languageDetected={ languageDetected }>
 						{ isMobile ? aboutMobile : description }
 					</TextColorLightGrey>

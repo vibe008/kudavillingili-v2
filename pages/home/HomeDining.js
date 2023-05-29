@@ -10,7 +10,6 @@ const {
 	HorizontalLine,
 	RowAlign,
 	SplitRow,
-	Title,
 	TitleH2,
 	ViewPortEighty,
 

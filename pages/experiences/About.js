@@ -4,7 +4,7 @@ const {
 	AlignCenter,
 	BodyText,
 	KudavillingiliDot,
-	TitleH2,
+	Title,
 	ViewPort,
 
 } = require("../../style/common/Common.Styled")
@@ -27,8 +27,9 @@ const About = ( props ) => {
 					<KudavillingiliDot isMobile={ props.isMobile }/>
 					{
 						false &&
-						<TitleH2 isMobile={ props.isMobile }  marginTop={ "80px" }>{ props.title }</TitleH2>
+						<Title isMobile={ props.isMobile }  marginTop={ "80px" }>{ props.title }</Title>
 					}
+					
 					<BodyText isMobile={ props.isMobile }  marginBottom={ props.isMobile ? "0px" : "inherit" }>{ description }</BodyText>
 				</AlignCenter>
 			</AboutContainer>
