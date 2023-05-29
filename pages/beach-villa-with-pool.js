@@ -109,7 +109,7 @@ export async function getServerSideProps() {
 		title_ar: room.title_ar,
 		title_ru: room.title_ru,
         seo_title:"Maldives Resort with Private Pool | Private Beachfront Villa with Pool | Hotels with Private Pool in Maldives",
-		seo_description:"Kuda Villingili has a beachfront villa with a private pool. Relax in a bath with essential oils before stretching out on the king-sized bed with the finest Egyptian cotton & looking out at the view of the Maldivian sea. Visit us today!"
+		seo_description:" Experience the ultimate beach getaway at Kuda Villingili Resort's Beach Villa with Private Pool. Enjoy pristine white sandy beaches, crystal clear waters, and your own personal pool for the perfect blend of luxury and relaxation. Book your stay today and escape to paradise."
 	}
 
   	return { props: { data } }
