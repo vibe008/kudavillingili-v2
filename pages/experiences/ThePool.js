@@ -74,7 +74,7 @@ const ThePool = ( props ) => {
 				!props.isMobile &&
 				<View height="980px">
 					<SectionHeader>
-						<TitleH2 isMobile={ props.isMobile } textAlign="center" paddingTop="150px">{ heading }</TitleH2>
+						<Title isMobile={ props.isMobile } textAlign="center" paddingTop="150px">{ heading }</Title>
 					</SectionHeader>
 					<ExperienceContainer positionChange="absolute" positionTop="230px">
 						<ExperienceImageAlign background={ cdn_image } />

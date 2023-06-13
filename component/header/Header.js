@@ -170,7 +170,7 @@ const Header = (props) => {
 				props.isHome && props.homeVideo !== '' &&
 				<HomeVideo autoPlay loop muted playsInline image={ props.image }>
 				    <source src={ props.homeVideo } type="video/mp4" />
-				    Sorry, your browser doesn't support embedded videos.
+				    Sorry, your browser doesnt support embedded videos.
 				</HomeVideo>
 			}
 			<CovidStatusBar

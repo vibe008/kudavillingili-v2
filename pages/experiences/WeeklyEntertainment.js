@@ -57,7 +57,7 @@ const WeeklyEntertainment = ( props ) => {
 			{
 				props.isMobile &&
 				<>
-					<TitleH2 isMobile={ props.isMobile } textAlign="center">{ heading }</TitleH2>
+					<TitleH2 isMobile={ props.isMobile } textAlign="center">tkt</TitleH2>
 					<ExperienceLeisureHeaderMobile isMobile={ props.isMobile }>
 						<ExperienceChildrenImageMobile
 							isMobile={ props.isMobile }

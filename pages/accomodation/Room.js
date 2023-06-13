@@ -22,7 +22,7 @@ const {
 	SplitRow,
 	TextColorKudavillingili,
 	TextColorLightGrey,
-	Title,
+	TitleH2,
 	View,
 	ViewBackgroundVariableHeight,
 
@@ -64,7 +64,7 @@ const Room = (props) => {
 			}
 			<Container isMobile={ props.isMobile }>
 				<RoomContainer isMobile={ props.isMobile }>
-					<Title color={ props.index === 5 ? "" : "" } medium={ true } isMobile={ props.isMobile }>{ props.name }</Title>
+					<TitleH2 color={ props.index === 5 ? "" : "" } medium={ true } isMobile={ props.isMobile }>{ props.name }</TitleH2>
 					<NoLineHeightContainer>
 						<RoomPrimaryImage isMobile={ props.isMobile } src={ typeof props.images !== "undefined" ? url : "https://mohit.sgp1.cdn.digitaloceanspaces.com/kudavillingili/beach-villa.jpg" } />
 						<Row marginTop={ "10px" }>
