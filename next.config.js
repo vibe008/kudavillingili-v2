@@ -21,3 +21,13 @@ async rewrites() {
     domains: ['kudavillingili.sgp1.cdn.digitaloceanspaces.com', 'kudavillingili-maldives.ams3.digitaloceanspaces.com'],
   }
 }
+
+module.exports = {
+  // ...
+
+  // Configure custom 404 page
+  pageExtensions: ['js', 'jsx', 'mdx'],
+  // Add other necessary configurations
+
+  // ...
+};
