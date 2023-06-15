@@ -22,12 +22,12 @@ async rewrites() {
   }
 }
 
-module.exports = {
-  // ...
+// module.exports = {
+//   // ...
 
-  // Configure custom 404 page
-  pageExtensions: ['js', 'jsx', 'mdx'],
-  // Add other necessary configurations
+//   // Configure custom 404 page
+//   pageExtensions: ['js', 'jsx', 'mdx'],
+//   // Add other necessary configurations
 
-  // ...
-};
+//   // ...
+// };

@@ -16,28 +16,28 @@
 //     )
 // }
 
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+// import { useEffect } from 'react';
+// import { useRouter } from 'next/router';
 
-const NotFoundPage = () => {
-  const router = useRouter();
+// const NotFoundPage = () => {
+//   const router = useRouter();
 
-  useEffect(() => {
-    // Redirect to homepage after 2 seconds
-    const redirectTimer = setTimeout(() => {
-      router.push('/');
-    },10);
+//   useEffect(() => {
+//     // Redirect to homepage after 2 seconds
+//     const redirectTimer = setTimeout(() => {
+//       router.push('/');
+//     },10);
 
-    return () => clearTimeout(redirectTimer);
-  }, [router]);
+//     return () => clearTimeout(redirectTimer);
+//   }, [router]);
 
-  return (
-<>
-<h5>Page Not Found ....
-    We Are Redirecting To The Home Page
-     </h5>
-</>
-  );
-};
+//   return (
+// <>
+// <h5>Page Not Found ....
+//     We Are Redirecting To The Home Page
+//      </h5>
+// </>
+//   );
+// };
 
-export default NotFoundPage;
+// export default NotFoundPage;
